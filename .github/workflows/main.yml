@@ -1,13 +1,13 @@
-- name: ftp-action
-  uses: sebastianpopp/ftp-action@v1.1.0
-  with:
+-  name: ftp-action
+-  uses: sebastianpopp/ftp-action@v1.1.0
+    with:
     # FTP host
-    host: 167.71.250.158
+  host: 167.71.250.158
     # FTP user
     user: root
     # FTP password
     password: Scooter@2005
     # Local directory
-    localDir: # optional, default is .
-    # Remote directory
+   localDir: # optional, default is .
+   # Remote directory
     remoteDir: /var/www/html # optional, default is .
