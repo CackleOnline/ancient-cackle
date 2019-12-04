@@ -1,5 +1,5 @@
 - name: FTP Deploy
--  uses: SamKirkland/FTP-Deploy-Action@2.0.0
+ uses: SamKirkland/FTP-Deploy-Action@2.0.0
   with:
     # FTP server name (you may need to specify a port)
     ftp_server: 167.71.250.158
